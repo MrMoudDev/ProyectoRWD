@@ -132,12 +132,22 @@ main {
     color: #757575;
 }
 .main-currency-table {
+    display: flex;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+    scroll-snap-type: x proximity;
+    overflow: scroll;
+    overscroll-behavior-x: contain;
+}
+.main-currency-table::-webkit-scrollbar {
+    height: 3px;
+}
+.main-currency-table::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
 }
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
@@ -218,37 +228,12 @@ main {
     line-height: 1.5rem;
     font-weight: 300;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main-comission-table {
-    width: 70%;
-    min-width: 235px;
-    max-width: 500px;
-    height: 360px;
-    margin: 0 auto;
-    font-family: "Inter", sans-serif;
-}
-.main-commission-table .commission-table--title {
+.commission-table--container .commission-table--title {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    color: var(--bitcoin-orange);
+    color: var(--secondary-blue);
 }
 .commission-table--container {
     width: 90%;
