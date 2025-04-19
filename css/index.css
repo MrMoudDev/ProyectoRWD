@@ -498,3 +498,285 @@ main {
     color: var(--just-white);
     text-align: center;
 }
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.plans--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.plans--title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.plans--title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.plans-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 65%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 20px 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow:0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.plans-container--slider {
+    display: flex;
+    gap: 50px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.plans-container--slider::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+}
+.plans-container--slider::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+}
+.recommended {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+}
+.plan-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.plan-card--price {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.2rem;
+    color: black;
+}
+.plan-card--price span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    top: 40px;
+    position: absolute;
+    left: 75px;
+}
+.plan-card--saving {
+    color: #757575;
+    font-size: 1.2rem;
+}
+.plan-card--ca {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #faf8f7;
+    border: 2px solid var(--bitcoin-orange);
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plan-card--ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/icon/arrow-right\ 1.png');
+    vertical-align: text-bottom;
+}
+/******************** CARDS PERSONAL ********************/
+
+.plans-container--card1 {
+    position: relative;
+    width: 65%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow:0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.option1 {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+}
+.plan-card--title1 {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.plan-card--price1 {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.2rem;
+    color: black;
+}
+.plan-card--price1 span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    top: 40px;
+    position: absolute;
+    left: 75px;
+}
+.plan-card--saving1 {
+    color: #757575;
+    font-size: 1.2rem;
+}
+.plan-card--ca1 {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #faf8f7;
+    border: 2px solid var(--bitcoin-orange);
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plan-card--ca1 span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/icon/arrow-right\ 1.png');
+    vertical-align: text-bottom;
+}
+.plans-container--card2 {
+    position: relative;
+    width: 65%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow:0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.option2 {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+}
+.plan-card--title2 {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.plan-card--price2 {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.2rem;
+    color: black;
+}
+.plan-card--price2 span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    top: 40px;
+    position: absolute;
+    left: 75px;
+}
+.plan-card--saving2 {
+    color: #757575;
+    font-size: 1.2rem;
+}
+.plan-card--ca2 {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #faf8f7;
+    border: 2px solid var(--bitcoin-orange);
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plan-card--ca2 span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/icon/arrow-right\ 1.png');
+    vertical-align: text-bottom;
+}
+footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+footer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+footer section .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .left ul {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.left li {
+    margin: 10px 0;
+}
+.left a {
+    text-decoration: none;
+    color: var(--just-white);
+}
